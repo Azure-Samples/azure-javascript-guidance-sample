@@ -1,32 +1,33 @@
 # Project Name
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+Azure JavaScript development environment for samples
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
+Required locally installed software:
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-- OS
-- Library version
-- ...
+Optional but highly recommended locally installed software:
+- [Docker](https://hub.docker.com/search?q=community&type=edition&offering=community) community edition 
+- [Visual Studio Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+
+### Visual Studio Code development container
+
+This repo uses a Visual Studio Code development container:
+* [Documentation](https://code.visualstudio.com/docs/remote/create-dev-container)
+* [YouTube demonstration video](https://www.youtube.com/watch?v=Uvf2FVS1F8k)
+* [Give feedback on the GitHub repo](https://github.com/microsoft/vscode-remote-release)
 
 ### Installation
 
-(ideally very short)
+Get a local version of this repository with Git. 
 
-- npm install [package name]
-- mvn install
-- ...
+```
+git clone https://github.com/Azure-Samples/azure-javascript-guidance-sample.git
+```
 
 ### Quickstart
 (Add steps to get up and running quickly)

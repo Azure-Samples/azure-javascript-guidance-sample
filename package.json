@@ -1,0 +1,32 @@
+{
+  "name": "azure-javascript-guidance-sample",
+  "version": "1.0.0",
+  "description": "(short, 1-3 sentenced, description of the project)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js --fix",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diberry/azure-javascript-guidance-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diberry/azure-javascript-guidance-sample/issues"
+  },
+  "homepage": "https://github.com/diberry/azure-javascript-guidance-sample#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0"
+  },
+  "dependencies": {}
+}
